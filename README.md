@@ -4,6 +4,7 @@ A prime feature of DESC is that it can generate multiple descriptions of the sam
 
 
 Use of DESC is relatively simple. The main function of DESC is getMultipleDescriptions, which takes as input three parameters: the x co-ordinates of the point sequence, the y co-ordinates of the point sequence and a structure of options. The (x, y) co-ordinates can be extracted from the contour of an offline shape or from the point sequence of an online stroke. The outputs from getMultipleDescriptions can be controlled by passing four parameters:
+
 •	repCount: maximum how many representations that DESC should generate for a shape.
 
 •	repLevel: controls the perspective [3] of a generated representation. The valid value ranges from 1 – 7 (online shapes), 8 (offline shape).
@@ -15,9 +16,13 @@ Use of DESC is relatively simple. The main function of DESC is getMultipleDescri
 Function getMultipleDescriptions returns four outputs for a particular shape contour: 
 
 •	descCount: number of many representations extracted for a shape. Can be less than repCount.
+
 •	descShape: list of descriptions for the shape using the codebook.
+
 •	descCode: same as 'descShape', but each word from codebook is replaced by a symbol.
+
 •	segXYAll: a list that contains the (x, y) coordinates of all segments inside each representation.
+
 •	segLenAll: a list that contains the the length (in # of points) of all segments inside each representation.
 
 The code repository contains a function desc_usage that illustrates the usage of getMultipleDescriptions for online strokes, where the online stokes are stored as inkml file. The code repository contains helper functions to read inkml files. 
