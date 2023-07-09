@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ink xmlns:inkml="http://www.w3.org/2003/InkML">
+  <context inkSourceRef="Tablet PC" />
+  <definitions>
+    <traceFormat>
+      <channel name="X" type="integer" />
+      <channel name="Y" type="integer" />
+      <channel name="Pressure" type="integer" />
+      <channel name="TimerTick" type="integer" />
+    </traceFormat>
+  </definitions>
+  <annotation type="WriterName">Baligh</annotation>
+  <annotation type="WriterAge">33</annotation>
+  <annotation type="WriterCountry">Yemen</annotation>
+  <annotation type="WriterQualification">University</annotation>
+  <annotation type="WriterGender">Male</annotation>
+  <annotation type="WriterHandedness">Right</annotation>
+  <trace type="penDown" duration="0" id="id001">202 96 176 343,204 97 176 343,206 98 176 343,208 98 177 359,210 97 177 359,211 95 178 375,211 93 178 375,212 89 178 390,212 86 179 390,213 82 180 406,214 79 180 406,215 76 180 422,217 74 181 422,220 72 181 437,224 72 181 437,227 72 181 453,231 73 181 453,234 75 181 484,237 77 181 484,238 79 180 500,238 81 180 500,237 82 179 500,234 84 176 500,229 85 157 515,225 85 122 515,220 85 86 531,216 85 49 531,212 84 12 531</trace>
+</ink>
